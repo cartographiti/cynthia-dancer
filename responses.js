@@ -25,6 +25,21 @@ class Responses {
         if (content.includes('trans rights')) {
             responses.push(this.transRights);
         }
+        if (content.includes('lesbian rights')) {
+            responses.push(this.lesbianRights);
+        }
+        if (content.includes('enby rights')) {
+            responses.push(this.enbyRights);
+        }
+        if (content.includes('queer rights')) {
+            responses.push(this.queerRights);
+        }
+        if (content.includes('ace rights')) {
+            responses.push(this.aceRights);
+        }
+        if (content.includes('intersex rights')) {
+            responses.push(this.intersexRights);
+        }
         if (content.includes('gay rights')) {
             responses.push(this.gayRights);
         }
