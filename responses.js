@@ -5,6 +5,7 @@ class Responses {
         this.transRights = 'Trans rights!';
         this.gayRights = 'Gay rights!';
         this.enbyRights = 'Enby rights!';
+        this.biRights = 'Bi rights!';
         this.lesbianRights = 'Lesbian rights!';
         this.queerRights = 'Queer rights!';
         this.aceRights = 'Ace rights!';
@@ -27,6 +28,9 @@ class Responses {
         }
         if (content.includes('lesbian rights')) {
             responses.push(this.lesbianRights);
+        }
+        if (content.includes('bi rights')) {
+            responses.push(this.biRights);
         }
         if (content.includes('enby rights')) {
             responses.push(this.enbyRights);
