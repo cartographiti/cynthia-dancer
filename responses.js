@@ -4,6 +4,11 @@ class Responses {
         this.fashion = 'Fashion? I love fashion!';
         this.transRights = 'Trans rights!';
         this.gayRights = 'Gay rights!';
+        this.enbyRights = 'Enby rights!';
+        this.lesbianRights = 'Lesbian rights!';
+        this.queerRights = 'Queer rights!';
+        this.aceRights = 'Ace rights!';
+        this.intersexRights = 'Intersex rights!';
         this.yas = 'yas!';
         this.cynthia = "Cynthia she's a really cool dancer. Cynthia boogie to the groove now.";
     }
